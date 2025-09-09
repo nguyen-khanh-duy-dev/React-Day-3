@@ -1,0 +1,8 @@
+html {
+    overflow-y: scroll;
+}
+
+#root {
+    background: #ffffffcc;
+    backdrop-filter: blur(6px);
+}

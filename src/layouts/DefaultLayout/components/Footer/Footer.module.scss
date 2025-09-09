@@ -1,0 +1,26 @@
+.container {
+    height: 150px;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .right {
+        display: flex;
+
+        a {
+            text-decoration: none;
+            padding: 6px 8px;
+        }
+        .active {
+            color: red;
+        }
+    }
+}

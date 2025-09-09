@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    max-width: 590px;
+    margin: 30px auto 0px;
+}
+
+.wrapperIcon {
+    text-align: center;
+    margin: 150px 0;
+}
+
+.error {
+    color: red;
+}
+

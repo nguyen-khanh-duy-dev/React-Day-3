@@ -1,0 +1,26 @@
+.active {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    height: auto;
+    background: #ffffffcc;
+    backdrop-filter: blur(10px) saturate(120%);
+    border: 1px solid #e0e0e0;
+    border-radius: 0 8px 8px 0;
+
+    .item {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 8px 12px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}

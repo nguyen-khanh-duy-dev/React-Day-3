@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+
+    .right {
+        margin: 0 auto;
+    }
+
+    .right,
+    .left {
+        flex: 1;
+    }
+}

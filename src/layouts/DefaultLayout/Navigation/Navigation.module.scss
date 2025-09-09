@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+    .item {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 8px;
+            background-color: #6c63ff;
+        }
+    }
+}
+
+.active {
+    background-color: #4e47c4;
+}
